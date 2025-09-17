@@ -33,11 +33,9 @@ public class Daily_Temp_Checker {
             if (temps[i] < lowest) lowest = temps[i];
         }
 
-        
         System.out.println("\nAverage Temperature: " + avg);
         System.out.println("Highest Temperature: " + highest);
         System.out.println("Lowest Temperature: " + lowest);
-
         System.out.println("Temperatures above average:");
         for (int i = 0; i < days; i++) {
             if (temps[i] > avg) {

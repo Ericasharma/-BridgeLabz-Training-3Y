@@ -25,8 +25,7 @@ public class coffee_counter {
 
             System.out.print("Enter quantity: ");
             int quantity = sc.nextInt();
-            sc.nextLine(); 
-
+          
             double pricePerCup;
             switch (coffeeType) {
                 case "espresso":
